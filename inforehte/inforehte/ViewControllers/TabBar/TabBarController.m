@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "TabBarController.h"
-//#import "SkillPointViewController.h"
+#import "InfoAccessViewController.h"
 #import "AppSettingViewController.h"
 //#import "SkillDetailViewController.h"
 
@@ -24,7 +24,7 @@
     self = [super init];
     if (self)
     {
-        AppSettingViewController *cateViewController = [[AppSettingViewController alloc] init];
+        InfoAccessViewController *cateViewController = [[InfoAccessViewController alloc] init];
         UINavigationController *cateNavigationController = [[UINavigationController alloc] initWithRootViewController:cateViewController];
         cateNavigationController.title = InfoAccess;
         

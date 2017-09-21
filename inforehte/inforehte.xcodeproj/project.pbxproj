@@ -22,6 +22,9 @@
 		58075F871F73BCFA00CBF79F /* TableAppSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F861F73BCFA00CBF79F /* TableAppSettingCell.m */; };
 		58075F8F1F73BD0200CBF79F /* TableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F8A1F73BD0200CBF79F /* TableHeaderView.m */; };
 		58075F901F73BD0200CBF79F /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F8C1F73BD0200CBF79F /* BaseCell.m */; };
+		58075F951F73C54300CBF79F /* InfoAccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F941F73C54300CBF79F /* InfoAccessViewController.m */; };
+		58075F991F73C84100CBF79F /* InfoAccessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F981F73C84100CBF79F /* InfoAccessCell.m */; };
+		58075F9C1F73C95300CBF79F /* InfoAccessHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F9B1F73C95300CBF79F /* InfoAccessHeaderView.m */; };
 		B9928339812BC5ECD01E91A4 /* libPods-inforehte.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C18A8D4069D82EF2B528A373 /* libPods-inforehte.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +61,12 @@
 		58075F8C1F73BD0200CBF79F /* BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseCell.m; path = CustomViews/Base/BaseCell.m; sourceTree = "<group>"; };
 		58075F8D1F73BD0200CBF79F /* BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseCell.h; path = CustomViews/Base/BaseCell.h; sourceTree = "<group>"; };
 		58075F911F73BEBC00CBF79F /* inforehte.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inforehte.pch; sourceTree = "<group>"; };
+		58075F931F73C52900CBF79F /* InfoAccessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InfoAccessViewController.h; path = ViewControllers/InfoAccess/InfoAccessViewController.h; sourceTree = "<group>"; };
+		58075F941F73C54300CBF79F /* InfoAccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoAccessViewController.m; path = ViewControllers/InfoAccess/InfoAccessViewController.m; sourceTree = "<group>"; };
+		58075F971F73C83300CBF79F /* InfoAccessCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InfoAccessCell.h; path = CustomViews/InfoAccess/InfoAccessCell.h; sourceTree = "<group>"; };
+		58075F981F73C84100CBF79F /* InfoAccessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoAccessCell.m; path = CustomViews/InfoAccess/InfoAccessCell.m; sourceTree = "<group>"; };
+		58075F9A1F73C94400CBF79F /* InfoAccessHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InfoAccessHeaderView.h; path = CustomViews/InfoAccess/InfoAccessHeaderView.h; sourceTree = "<group>"; };
+		58075F9B1F73C95300CBF79F /* InfoAccessHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoAccessHeaderView.m; path = CustomViews/InfoAccess/InfoAccessHeaderView.m; sourceTree = "<group>"; };
 		615135A9A5E1A475935B914E /* Pods-inforehte.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inforehte.release.xcconfig"; path = "Pods/Target Support Files/Pods-inforehte/Pods-inforehte.release.xcconfig"; sourceTree = "<group>"; };
 		C18A8D4069D82EF2B528A373 /* libPods-inforehte.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inforehte.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -166,6 +175,7 @@
 		58075F6A1F73B7FB00CBF79F /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				58075F961F73C81000CBF79F /* InfoAccess */,
 				58075F841F73BCEC00CBF79F /* AppSetting */,
 				58075F831F73BCE800CBF79F /* Base */,
 			);
@@ -184,6 +194,7 @@
 		58075F6C1F73B80900CBF79F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				58075F921F73C4D300CBF79F /* InfoAccess */,
 				58075F751F73BA8A00CBF79F /* AppSetting */,
 				58075F6D1F73B88800CBF79F /* Base */,
 				58075F6E1F73B88D00CBF79F /* TabBar */,
@@ -256,6 +267,26 @@
 				58075F861F73BCFA00CBF79F /* TableAppSettingCell.m */,
 			);
 			name = AppSetting;
+			sourceTree = "<group>";
+		};
+		58075F921F73C4D300CBF79F /* InfoAccess */ = {
+			isa = PBXGroup;
+			children = (
+				58075F931F73C52900CBF79F /* InfoAccessViewController.h */,
+				58075F941F73C54300CBF79F /* InfoAccessViewController.m */,
+			);
+			name = InfoAccess;
+			sourceTree = "<group>";
+		};
+		58075F961F73C81000CBF79F /* InfoAccess */ = {
+			isa = PBXGroup;
+			children = (
+				58075F971F73C83300CBF79F /* InfoAccessCell.h */,
+				58075F981F73C84100CBF79F /* InfoAccessCell.m */,
+				58075F9A1F73C94400CBF79F /* InfoAccessHeaderView.h */,
+				58075F9B1F73C95300CBF79F /* InfoAccessHeaderView.m */,
+			);
+			name = InfoAccess;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,10 +412,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58075F951F73C54300CBF79F /* InfoAccessViewController.m in Sources */,
 				58075F551F73B53B00CBF79F /* ViewController.m in Sources */,
 				58075F741F73B94000CBF79F /* BaseViewController.m in Sources */,
 				58075F681F73B7A000CBF79F /* DZNSegmentedControl.m in Sources */,
 				58075F871F73BCFA00CBF79F /* TableAppSettingCell.m in Sources */,
+				58075F9C1F73C95300CBF79F /* InfoAccessHeaderView.m in Sources */,
 				58075F901F73BD0200CBF79F /* BaseCell.m in Sources */,
 				58075F7B1F73BA9700CBF79F /* AppHelpViewController.m in Sources */,
 				58075F711F73B93400CBF79F /* TabBarController.m in Sources */,
@@ -393,6 +426,7 @@
 				58075F7A1F73BA9700CBF79F /* AppSettingViewController.m in Sources */,
 				58075F821F73BBF800CBF79F /* UIImage+Common.m in Sources */,
 				58075F4F1F73B53B00CBF79F /* main.m in Sources */,
+				58075F991F73C84100CBF79F /* InfoAccessCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
