@@ -13,6 +13,15 @@
 		58075F581F73B53B00CBF79F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58075F561F73B53B00CBF79F /* Main.storyboard */; };
 		58075F5A1F73B53B00CBF79F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58075F591F73B53B00CBF79F /* Assets.xcassets */; };
 		58075F5D1F73B53B00CBF79F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58075F5B1F73B53B00CBF79F /* LaunchScreen.storyboard */; };
+		58075F681F73B7A000CBF79F /* DZNSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F661F73B7A000CBF79F /* DZNSegmentedControl.m */; };
+		58075F711F73B93400CBF79F /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F6F1F73B93400CBF79F /* TabBarController.m */; };
+		58075F741F73B94000CBF79F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F721F73B94000CBF79F /* BaseViewController.m */; };
+		58075F7A1F73BA9700CBF79F /* AppSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F761F73BA9700CBF79F /* AppSettingViewController.m */; };
+		58075F7B1F73BA9700CBF79F /* AppHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F781F73BA9700CBF79F /* AppHelpViewController.m */; };
+		58075F821F73BBF800CBF79F /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F801F73BBF800CBF79F /* UIImage+Common.m */; };
+		58075F871F73BCFA00CBF79F /* TableAppSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F861F73BCFA00CBF79F /* TableAppSettingCell.m */; };
+		58075F8F1F73BD0200CBF79F /* TableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F8A1F73BD0200CBF79F /* TableHeaderView.m */; };
+		58075F901F73BD0200CBF79F /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F8C1F73BD0200CBF79F /* BaseCell.m */; };
 		B9928339812BC5ECD01E91A4 /* libPods-inforehte.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C18A8D4069D82EF2B528A373 /* libPods-inforehte.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +37,27 @@
 		58075F591F73B53B00CBF79F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58075F5C1F73B53B00CBF79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58075F5E1F73B53B00CBF79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58075F661F73B7A000CBF79F /* DZNSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DZNSegmentedControl.m; path = Vendors/DZNSegmentedControl/DZNSegmentedControl.m; sourceTree = "<group>"; };
+		58075F671F73B7A000CBF79F /* DZNSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DZNSegmentedControl.h; path = Vendors/DZNSegmentedControl/DZNSegmentedControl.h; sourceTree = "<group>"; };
+		58075F6F1F73B93400CBF79F /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarController.m; path = ViewControllers/TabBar/TabBarController.m; sourceTree = "<group>"; };
+		58075F701F73B93400CBF79F /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarController.h; path = ViewControllers/TabBar/TabBarController.h; sourceTree = "<group>"; };
+		58075F721F73B94000CBF79F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ViewControllers/Base/BaseViewController.m; sourceTree = "<group>"; };
+		58075F731F73B94000CBF79F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ViewControllers/Base/BaseViewController.h; sourceTree = "<group>"; };
+		58075F761F73BA9700CBF79F /* AppSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppSettingViewController.m; path = ViewControllers/AppSetting/AppSettingViewController.m; sourceTree = "<group>"; };
+		58075F771F73BA9700CBF79F /* AppHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppHelpViewController.h; path = ViewControllers/AppSetting/AppHelpViewController.h; sourceTree = "<group>"; };
+		58075F781F73BA9700CBF79F /* AppHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppHelpViewController.m; path = ViewControllers/AppSetting/AppHelpViewController.m; sourceTree = "<group>"; };
+		58075F791F73BA9700CBF79F /* AppSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppSettingViewController.h; path = ViewControllers/AppSetting/AppSettingViewController.h; sourceTree = "<group>"; };
+		58075F7E1F73BBEF00CBF79F /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = Common/Headers/Macros.h; sourceTree = "<group>"; };
+		58075F7F1F73BBEF00CBF79F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Common/Headers/Constants.h; sourceTree = "<group>"; };
+		58075F801F73BBF800CBF79F /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Common.m"; path = "Common/Plugin/UIImage+Common.m"; sourceTree = "<group>"; };
+		58075F811F73BBF800CBF79F /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Common.h"; path = "Common/Plugin/UIImage+Common.h"; sourceTree = "<group>"; };
+		58075F851F73BCFA00CBF79F /* TableAppSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableAppSettingCell.h; path = CustomViews/AppSetting/TableAppSettingCell.h; sourceTree = "<group>"; };
+		58075F861F73BCFA00CBF79F /* TableAppSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableAppSettingCell.m; path = CustomViews/AppSetting/TableAppSettingCell.m; sourceTree = "<group>"; };
+		58075F8A1F73BD0200CBF79F /* TableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableHeaderView.m; path = CustomViews/Base/TableHeaderView.m; sourceTree = "<group>"; };
+		58075F8B1F73BD0200CBF79F /* TableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableHeaderView.h; path = CustomViews/Base/TableHeaderView.h; sourceTree = "<group>"; };
+		58075F8C1F73BD0200CBF79F /* BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseCell.m; path = CustomViews/Base/BaseCell.m; sourceTree = "<group>"; };
+		58075F8D1F73BD0200CBF79F /* BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseCell.h; path = CustomViews/Base/BaseCell.h; sourceTree = "<group>"; };
+		58075F911F73BEBC00CBF79F /* inforehte.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inforehte.pch; sourceTree = "<group>"; };
 		615135A9A5E1A475935B914E /* Pods-inforehte.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inforehte.release.xcconfig"; path = "Pods/Target Support Files/Pods-inforehte/Pods-inforehte.release.xcconfig"; sourceTree = "<group>"; };
 		C18A8D4069D82EF2B528A373 /* libPods-inforehte.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inforehte.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -82,6 +112,11 @@
 		58075F4C1F73B53B00CBF79F /* inforehte */ = {
 			isa = PBXGroup;
 			children = (
+				58075F641F73B77C00CBF79F /* Vendors */,
+				58075F691F73B7BE00CBF79F /* Models */,
+				58075F6A1F73B7FB00CBF79F /* CustomViews */,
+				58075F6B1F73B80400CBF79F /* Common */,
+				58075F6C1F73B80900CBF79F /* ViewControllers */,
 				58075F501F73B53B00CBF79F /* AppDelegate.h */,
 				58075F511F73B53B00CBF79F /* AppDelegate.m */,
 				58075F531F73B53B00CBF79F /* ViewController.h */,
@@ -99,8 +134,128 @@
 			isa = PBXGroup;
 			children = (
 				58075F4E1F73B53B00CBF79F /* main.m */,
+				58075F911F73BEBC00CBF79F /* inforehte.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58075F641F73B77C00CBF79F /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				58075F651F73B78B00CBF79F /* DZNSegmentedControl */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		58075F651F73B78B00CBF79F /* DZNSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				58075F661F73B7A000CBF79F /* DZNSegmentedControl.m */,
+				58075F671F73B7A000CBF79F /* DZNSegmentedControl.h */,
+			);
+			name = DZNSegmentedControl;
+			sourceTree = "<group>";
+		};
+		58075F691F73B7BE00CBF79F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		58075F6A1F73B7FB00CBF79F /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				58075F841F73BCEC00CBF79F /* AppSetting */,
+				58075F831F73BCE800CBF79F /* Base */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		58075F6B1F73B80400CBF79F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				58075F7C1F73BBA500CBF79F /* Plugin */,
+				58075F7D1F73BBAA00CBF79F /* Headers */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		58075F6C1F73B80900CBF79F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				58075F751F73BA8A00CBF79F /* AppSetting */,
+				58075F6D1F73B88800CBF79F /* Base */,
+				58075F6E1F73B88D00CBF79F /* TabBar */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		58075F6D1F73B88800CBF79F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				58075F721F73B94000CBF79F /* BaseViewController.m */,
+				58075F731F73B94000CBF79F /* BaseViewController.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		58075F6E1F73B88D00CBF79F /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				58075F6F1F73B93400CBF79F /* TabBarController.m */,
+				58075F701F73B93400CBF79F /* TabBarController.h */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		58075F751F73BA8A00CBF79F /* AppSetting */ = {
+			isa = PBXGroup;
+			children = (
+				58075F761F73BA9700CBF79F /* AppSettingViewController.m */,
+				58075F771F73BA9700CBF79F /* AppHelpViewController.h */,
+				58075F781F73BA9700CBF79F /* AppHelpViewController.m */,
+				58075F791F73BA9700CBF79F /* AppSettingViewController.h */,
+			);
+			name = AppSetting;
+			sourceTree = "<group>";
+		};
+		58075F7C1F73BBA500CBF79F /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				58075F801F73BBF800CBF79F /* UIImage+Common.m */,
+				58075F811F73BBF800CBF79F /* UIImage+Common.h */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		58075F7D1F73BBAA00CBF79F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				58075F7E1F73BBEF00CBF79F /* Macros.h */,
+				58075F7F1F73BBEF00CBF79F /* Constants.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		58075F831F73BCE800CBF79F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				58075F8A1F73BD0200CBF79F /* TableHeaderView.m */,
+				58075F8B1F73BD0200CBF79F /* TableHeaderView.h */,
+				58075F8C1F73BD0200CBF79F /* BaseCell.m */,
+				58075F8D1F73BD0200CBF79F /* BaseCell.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		58075F841F73BCEC00CBF79F /* AppSetting */ = {
+			isa = PBXGroup;
+			children = (
+				58075F851F73BCFA00CBF79F /* TableAppSettingCell.h */,
+				58075F861F73BCFA00CBF79F /* TableAppSettingCell.m */,
+			);
+			name = AppSetting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,7 +382,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				58075F551F73B53B00CBF79F /* ViewController.m in Sources */,
+				58075F741F73B94000CBF79F /* BaseViewController.m in Sources */,
+				58075F681F73B7A000CBF79F /* DZNSegmentedControl.m in Sources */,
+				58075F871F73BCFA00CBF79F /* TableAppSettingCell.m in Sources */,
+				58075F901F73BD0200CBF79F /* BaseCell.m in Sources */,
+				58075F7B1F73BA9700CBF79F /* AppHelpViewController.m in Sources */,
+				58075F711F73B93400CBF79F /* TabBarController.m in Sources */,
 				58075F521F73B53B00CBF79F /* AppDelegate.m in Sources */,
+				58075F8F1F73BD0200CBF79F /* TableHeaderView.m in Sources */,
+				58075F7A1F73BA9700CBF79F /* AppSettingViewController.m in Sources */,
+				58075F821F73BBF800CBF79F /* UIImage+Common.m in Sources */,
 				58075F4F1F73B53B00CBF79F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +514,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 887CVK63XR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = inforehte/inforehte.pch;
 				INFOPLIST_FILE = inforehte/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -364,6 +530,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 887CVK63XR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = inforehte/inforehte.pch;
 				INFOPLIST_FILE = inforehte/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -391,6 +559,7 @@
 				58075F631F73B53B00CBF79F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    CGRect rect = [UIScreen mainScreen].bounds;
+    _window = [[UIWindow alloc] initWithFrame:rect];
+    _window.backgroundColor = [UIColor whiteColor];
+    [_window makeKeyAndVisible];
+    
+    //设置导航栏的样式
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : NavigationBarTitleTextColor}];
+    [[UINavigationBar appearance] setTintColor:LightGrayTextColor];
+    //[[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setBarTintColor:NavigationBarTitleTextColor];
+    
+    _window.rootViewController = [[TabBarController alloc] init];
+    
     return YES;
 }
 

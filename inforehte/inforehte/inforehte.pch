@@ -1,0 +1,21 @@
+//
+//  inforehte.pch
+//  inforehte
+//
+//  Created by HANSHAOWEN on 17/9/21.
+//  Copyright © 2017年 HANSHAOWEN. All rights reserved.
+//
+
+#ifndef inforehte_pch
+#define inforehte_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#pragma mark - Header
+#import "Constants.h"
+#import "Macros.h"
+#import "AppDelegate.h"
+#import <UIKit/UITableViewCell.h>
+
+#endif /* inforehte_pch */
