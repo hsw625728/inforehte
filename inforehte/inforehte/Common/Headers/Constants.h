@@ -46,6 +46,32 @@
 #define HUD_DELAY                               1.5
 #define MLBPullToRefreshBorderWidth             4
 
-
+typedef enum {
+    CN_GetAccount=0,
+    CN_GetAccountCount,
+    CN_GetAccountNonce,
+    CN_GetAccountSource,
+    CN_GetAccountTransactions,
+    CN_GetAccounts,
+    CN_GetMinedBlocks,
+    CN_GetMinedBlocksHistory,
+    CN_GetMinedUnclesHistory,
+    CN_GetMultipleAccounts,
+    CN_BlockCount=100,
+    CN_GetBlockByNumberOrHash,
+    CN_GetBlocks,
+    CN_GetTxForBlock,
+    CN_AllStatistics=200,
+    CN_BasicStatistics,
+    CN_Difficulty,
+    CN_GasPrice,
+    CN_MiningEstimator,
+    CN_Nodes,
+    CN_Price,
+    CN_Supply,
+    CN_GetTransaction=300,
+    CN_GetTransactionCount,
+    CN_GetTransactions
+}CommandName;
 
 #endif /* Constants_h */

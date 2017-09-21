@@ -139,6 +139,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
+    CommandName command = (CommandName)(indexPath.section*100+indexPath.row);
     //if (indexPath.section == 1 && indexPath.row == 1)
     //{
     //    //[self presentLoginOptsViewController];
