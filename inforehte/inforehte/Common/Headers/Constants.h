@@ -74,4 +74,10 @@ typedef enum {
     CN_GetTransactions
 }CommandName;
 
+typedef enum{
+    PCT_VOID,
+    PCT_ID,
+    PCT_OFFSET,
+}ParameterCellType;
+
 #endif /* Constants_h */

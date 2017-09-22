@@ -25,6 +25,13 @@
 		58075F951F73C54300CBF79F /* InfoAccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F941F73C54300CBF79F /* InfoAccessViewController.m */; };
 		58075F991F73C84100CBF79F /* InfoAccessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F981F73C84100CBF79F /* InfoAccessCell.m */; };
 		58075F9C1F73C95300CBF79F /* InfoAccessHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F9B1F73C95300CBF79F /* InfoAccessHeaderView.m */; };
+		58075F9F1F74B35A00CBF79F /* InfoAccessDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075F9E1F74B35A00CBF79F /* InfoAccessDetailViewController.m */; };
+		58075FA21F74B43700CBF79F /* InfoAccessDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075FA11F74B43700CBF79F /* InfoAccessDetailCell.m */; };
+		58075FA61F74F0DE00CBF79F /* InfoAccessParameterIdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075FA51F74F0DE00CBF79F /* InfoAccessParameterIdCell.m */; };
+		58075FA91F74F22900CBF79F /* InfoAccessParameterOffsetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075FA81F74F22900CBF79F /* InfoAccessParameterOffsetCell.m */; };
+		58075FAC1F74F45900CBF79F /* BaseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075FAB1F74F45900CBF79F /* BaseCommand.m */; };
+		58075FAF1F75010F00CBF79F /* InfoAccessParameterFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075FAE1F75010F00CBF79F /* InfoAccessParameterFooterCell.m */; };
+		58075FB21F7507BE00CBF79F /* InfoAccessParameterBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075FB11F7507BE00CBF79F /* InfoAccessParameterBaseCell.m */; };
 		B9928339812BC5ECD01E91A4 /* libPods-inforehte.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C18A8D4069D82EF2B528A373 /* libPods-inforehte.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +74,20 @@
 		58075F981F73C84100CBF79F /* InfoAccessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoAccessCell.m; path = CustomViews/InfoAccess/InfoAccessCell.m; sourceTree = "<group>"; };
 		58075F9A1F73C94400CBF79F /* InfoAccessHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InfoAccessHeaderView.h; path = CustomViews/InfoAccess/InfoAccessHeaderView.h; sourceTree = "<group>"; };
 		58075F9B1F73C95300CBF79F /* InfoAccessHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoAccessHeaderView.m; path = CustomViews/InfoAccess/InfoAccessHeaderView.m; sourceTree = "<group>"; };
+		58075F9D1F74B34D00CBF79F /* InfoAccessDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InfoAccessDetailViewController.h; path = ViewControllers/InfoAccess/InfoAccessDetailViewController.h; sourceTree = "<group>"; };
+		58075F9E1F74B35A00CBF79F /* InfoAccessDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoAccessDetailViewController.m; path = ViewControllers/InfoAccess/InfoAccessDetailViewController.m; sourceTree = "<group>"; };
+		58075FA01F74B42900CBF79F /* InfoAccessDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InfoAccessDetailCell.h; path = CustomViews/InfoAccess/InfoAccessDetailCell.h; sourceTree = "<group>"; };
+		58075FA11F74B43700CBF79F /* InfoAccessDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoAccessDetailCell.m; path = CustomViews/InfoAccess/InfoAccessDetailCell.m; sourceTree = "<group>"; };
+		58075FA41F74F0AC00CBF79F /* InfoAccessParameterIdCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InfoAccessParameterIdCell.h; path = CustomViews/InfoAccess/ParameterCell/InfoAccessParameterIdCell.h; sourceTree = "<group>"; };
+		58075FA51F74F0DE00CBF79F /* InfoAccessParameterIdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoAccessParameterIdCell.m; path = CustomViews/InfoAccess/ParameterCell/InfoAccessParameterIdCell.m; sourceTree = "<group>"; };
+		58075FA71F74F21A00CBF79F /* InfoAccessParameterOffsetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InfoAccessParameterOffsetCell.h; path = CustomViews/InfoAccess/ParameterCell/InfoAccessParameterOffsetCell.h; sourceTree = "<group>"; };
+		58075FA81F74F22900CBF79F /* InfoAccessParameterOffsetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoAccessParameterOffsetCell.m; path = CustomViews/InfoAccess/ParameterCell/InfoAccessParameterOffsetCell.m; sourceTree = "<group>"; };
+		58075FAA1F74F44C00CBF79F /* BaseCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseCommand.h; path = Models/BaseCommand.h; sourceTree = "<group>"; };
+		58075FAB1F74F45900CBF79F /* BaseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseCommand.m; path = Models/BaseCommand.m; sourceTree = "<group>"; };
+		58075FAD1F75010000CBF79F /* InfoAccessParameterFooterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InfoAccessParameterFooterCell.h; path = CustomViews/InfoAccess/ParameterCell/InfoAccessParameterFooterCell.h; sourceTree = "<group>"; };
+		58075FAE1F75010F00CBF79F /* InfoAccessParameterFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoAccessParameterFooterCell.m; path = CustomViews/InfoAccess/ParameterCell/InfoAccessParameterFooterCell.m; sourceTree = "<group>"; };
+		58075FB01F7507B100CBF79F /* InfoAccessParameterBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InfoAccessParameterBaseCell.h; path = CustomViews/InfoAccess/ParameterCell/InfoAccessParameterBaseCell.h; sourceTree = "<group>"; };
+		58075FB11F7507BE00CBF79F /* InfoAccessParameterBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoAccessParameterBaseCell.m; path = CustomViews/InfoAccess/ParameterCell/InfoAccessParameterBaseCell.m; sourceTree = "<group>"; };
 		615135A9A5E1A475935B914E /* Pods-inforehte.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inforehte.release.xcconfig"; path = "Pods/Target Support Files/Pods-inforehte/Pods-inforehte.release.xcconfig"; sourceTree = "<group>"; };
 		C18A8D4069D82EF2B528A373 /* libPods-inforehte.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inforehte.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -168,6 +189,8 @@
 		58075F691F73B7BE00CBF79F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				58075FAA1F74F44C00CBF79F /* BaseCommand.h */,
+				58075FAB1F74F45900CBF79F /* BaseCommand.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -274,6 +297,8 @@
 			children = (
 				58075F931F73C52900CBF79F /* InfoAccessViewController.h */,
 				58075F941F73C54300CBF79F /* InfoAccessViewController.m */,
+				58075F9D1F74B34D00CBF79F /* InfoAccessDetailViewController.h */,
+				58075F9E1F74B35A00CBF79F /* InfoAccessDetailViewController.m */,
 			);
 			name = InfoAccess;
 			sourceTree = "<group>";
@@ -281,12 +306,30 @@
 		58075F961F73C81000CBF79F /* InfoAccess */ = {
 			isa = PBXGroup;
 			children = (
+				58075FA31F74F06800CBF79F /* ParameterCell */,
 				58075F971F73C83300CBF79F /* InfoAccessCell.h */,
 				58075F981F73C84100CBF79F /* InfoAccessCell.m */,
 				58075F9A1F73C94400CBF79F /* InfoAccessHeaderView.h */,
 				58075F9B1F73C95300CBF79F /* InfoAccessHeaderView.m */,
+				58075FA01F74B42900CBF79F /* InfoAccessDetailCell.h */,
+				58075FA11F74B43700CBF79F /* InfoAccessDetailCell.m */,
 			);
 			name = InfoAccess;
+			sourceTree = "<group>";
+		};
+		58075FA31F74F06800CBF79F /* ParameterCell */ = {
+			isa = PBXGroup;
+			children = (
+				58075FA41F74F0AC00CBF79F /* InfoAccessParameterIdCell.h */,
+				58075FA51F74F0DE00CBF79F /* InfoAccessParameterIdCell.m */,
+				58075FA71F74F21A00CBF79F /* InfoAccessParameterOffsetCell.h */,
+				58075FA81F74F22900CBF79F /* InfoAccessParameterOffsetCell.m */,
+				58075FAD1F75010000CBF79F /* InfoAccessParameterFooterCell.h */,
+				58075FAE1F75010F00CBF79F /* InfoAccessParameterFooterCell.m */,
+				58075FB01F7507B100CBF79F /* InfoAccessParameterBaseCell.h */,
+				58075FB11F7507BE00CBF79F /* InfoAccessParameterBaseCell.m */,
+			);
+			name = ParameterCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,14 +457,21 @@
 			files = (
 				58075F951F73C54300CBF79F /* InfoAccessViewController.m in Sources */,
 				58075F551F73B53B00CBF79F /* ViewController.m in Sources */,
+				58075FA21F74B43700CBF79F /* InfoAccessDetailCell.m in Sources */,
 				58075F741F73B94000CBF79F /* BaseViewController.m in Sources */,
 				58075F681F73B7A000CBF79F /* DZNSegmentedControl.m in Sources */,
+				58075FAF1F75010F00CBF79F /* InfoAccessParameterFooterCell.m in Sources */,
+				58075FB21F7507BE00CBF79F /* InfoAccessParameterBaseCell.m in Sources */,
 				58075F871F73BCFA00CBF79F /* TableAppSettingCell.m in Sources */,
 				58075F9C1F73C95300CBF79F /* InfoAccessHeaderView.m in Sources */,
+				58075F9F1F74B35A00CBF79F /* InfoAccessDetailViewController.m in Sources */,
 				58075F901F73BD0200CBF79F /* BaseCell.m in Sources */,
 				58075F7B1F73BA9700CBF79F /* AppHelpViewController.m in Sources */,
+				58075FA61F74F0DE00CBF79F /* InfoAccessParameterIdCell.m in Sources */,
+				58075FA91F74F22900CBF79F /* InfoAccessParameterOffsetCell.m in Sources */,
 				58075F711F73B93400CBF79F /* TabBarController.m in Sources */,
 				58075F521F73B53B00CBF79F /* AppDelegate.m in Sources */,
+				58075FAC1F74F45900CBF79F /* BaseCommand.m in Sources */,
 				58075F8F1F73BD0200CBF79F /* TableHeaderView.m in Sources */,
 				58075F7A1F73BA9700CBF79F /* AppSettingViewController.m in Sources */,
 				58075F821F73BBF800CBF79F /* UIImage+Common.m in Sources */,

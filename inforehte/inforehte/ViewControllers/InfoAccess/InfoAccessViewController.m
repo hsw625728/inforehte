@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "InfoAccessViewController.h"
+#import "InfoAccessDetailViewController.h"
 #import "UIImage+Common.h"
 #import "InfoAccessCell.h"
 #import "InfoAccessHeaderView.h"
@@ -43,8 +44,8 @@
     // Do any additional setup after loading the view.
     self.navigationItem.title = InfoAccess;
     
-    [self addNavigationBarLeftSearchItem];
-    //[self addNavigationBarRightMeItem];
+    //[self addNavigationBarLeftSearchItem];
+    [self addNavigationBarRightMeItem];
     [self setupViews];
     
     //设置导航栏
@@ -140,14 +141,9 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     CommandName command = (CommandName)(indexPath.section*100+indexPath.row);
-    //if (indexPath.section == 1 && indexPath.row == 1)
-    //{
-    //    //[self presentLoginOptsViewController];
-    //    return;
-    //}
-    //DRSubCategoriesViewController *subview = [[DRSubCategoriesViewController alloc] init];
-    //[subview setIndex:((int)((indexPath.section+1)*10 + (indexPath.row+1)))];
-    //[self.navigationController pushViewController:subview animated:YES];
+    InfoAccessDetailViewController *subview = [[InfoAccessDetailViewController alloc] init];
+    [subview setCommand:command];
+    [self.navigationController pushViewController:subview animated:YES];    
 }
 
 @end
